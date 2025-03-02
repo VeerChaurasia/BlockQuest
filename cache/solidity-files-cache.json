@@ -1,0 +1,79 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/veerchaurasia/BlockQuest/contracts/Game.sol": {
+      "lastModificationDate": 1740857818558,
+      "contentHash": "3f20e1ea3eef7f82176b7441e644bbff",
+      "sourceName": "contracts/Game.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "Game"
+      ]
+    },
+    "/Users/veerchaurasia/BlockQuest/contracts/GameGateway.sol": {
+      "lastModificationDate": 1740857824949,
+      "contentHash": "60ca03eb3fbc7c9610da2cae80ef3bbc",
+      "sourceName": "contracts/GameGateway.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Game.sol"
+      ],
+      "versionPragmas": [
+        ">=0.7.0 <0.9.0"
+      ],
+      "artifacts": [
+        "GameGateway"
+      ]
+    }
+  }
+}
