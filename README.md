@@ -36,6 +36,14 @@ BlockQuest revolutionizes blockchain learning by:
 4. **Earn XP & Rewards** - Unlock achievements and earn tokens for completing challenges.
 5. **Compete on Leaderboards** - Engage with the community and rank up.
 
-
+## 💻 Installation
+```bash
+npm i
+```
+## 🖥️ Play Now !
+```bash
+cd src 
+npm run dev
+```
 
 Start your blockchain learning journey today with **BlockQuest**! 🎉
